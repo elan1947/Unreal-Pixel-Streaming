@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>C77D31794B44F760D54C9DB3A5ADC8EE</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-B3F0C9ED4DC19065E1212AA1E5D3CE51_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000320</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>15400</ProcessId>
+<SecondsSinceStart>33</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-EagleStreamingMechns</GameName>
+<ExecutableName>EagleStreamingMechns</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.27-CL-18319896-Win64-Development</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.27.2-18319896+++UE4+Release-4.27</EngineVersion>
+<CommandLine> EagleStreamingMechns</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.27-CL-18319896</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/UE4 PROJECTS/EagleStreamingGit/pixelstreamedapp/StreamingBuilds/WindowsNoEditor/EagleStreamingMechns/Binaries/Win64/</BaseDir>
+<RootDir>C:/UE4 PROJECTS/EagleStreamingGit/pixelstreamedapp/StreamingBuilds/WindowsNoEditor/</RootDir>
+<MachineId>0BAC144148FD637FAA8BFA943C66F029</MachineId>
+<LoginId>0bac144148fd637faa8bfa943c66f029</LoginId>
+<EpicAccountId>dbffa1c9eb6c4abd9bfd113fad928897</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>12</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>24</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 9 3900X 12-Core Processor            </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 2080 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>68659523584</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>64</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+EagleStreamingMechns  0x00007ff7a5760000 + 1905b49         
+X3DAudio1_7           0x0000000064210000 + 865367a90       
+EagleStreamingMechns  0x00007ff7a5760000 + 2a4df42         
+X3DAudio1_7           0x0000000064210000 + 16c0fec4980     
+X3DAudio1_7           0x0000000064210000 + 8653684a0       
+ntdll                 0x00007ff9f0910000 + c4dcb9060f6f0001
+Unknown               0x0000000000000000 + 56              
+X3DAudio1_7           0x0000000064210000 + 8653684a0       
+EagleStreamingMechns  0x00007ff7a5760000 + 2796b29         
+</PCallStack>
+<PCallStackHash>68962DFD1B9505E55D073E10BFE5267840621648</PCallStackHash>
+<Threads><Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c11c9d540     
+X3DAudio1_7  0x0000000064210000 + 16ba59be080     
+X3DAudio1_7  0x0000000064210000 + 16ba3644ed0     
+Unknown      0x0000000000000000 + 240             
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>14056</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+ntdll       0x00007ff9f0910000 + ffff8006011b634e
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16924</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+ntdll       0x00007ff9f0910000 + ffff8006011b634e
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5212</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+ntdll       0x00007ff9f0910000 + ffff8006011b634e
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21296</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ff9f0910000 + 9cdc4           
+KERNELBASE    0x00007ff9ee5c0000 + 21ace           
+VCRUNTIME140  0x00007ff9db420000 + 1b41            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20492</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 15a8a0000       
+Unknown               0x0000000000000000 + 9               
+X3DAudio1_7           0x0000000064210000 + 868e6f504       
+EagleStreamingMechns  0x00007ff7a5760000 + 4d56f8b         
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0000     
+X3DAudio1_7           0x0000000064210000 + 16bf4fd1b10     
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20688</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 868eef6b1       
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0000     
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0009     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5668</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 868f6f241       
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0000     
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0009     
+X3DAudio1_7           0x0000000064210000 + 868f6f2a4       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20692</ThreadID>
+<ThreadName>TaskGraphThreadNP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 868fef491       
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0000     
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0009     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20980</ThreadID>
+<ThreadName>TaskGraphThreadNP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 15a8a0000       
+Unknown               0x0000000000000000 + 9               
+X3DAudio1_7           0x0000000064210000 + 86906f6c4       
+EagleStreamingMechns  0x00007ff7a5760000 + 4d56f8b         
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0000     
+X3DAudio1_7           0x0000000064210000 + 16bf6d6ec70     
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21424</ThreadID>
+<ThreadName>TaskGraphThreadNP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 8690ef321       
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0000     
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0009     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7796</ThreadID>
+<ThreadName>TaskGraphThreadNP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ff9f0910000 + 9cdc4           
+KERNELBASE    0x00007ff9ee5c0000 + 21ace           
+VCRUNTIME140  0x00007ff9db420000 + 1b41            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17372</ThreadID>
+<ThreadName>TaskGraphThreadNP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ff9f0910000 + 9cdc4           
+KERNELBASE    0x00007ff9ee5c0000 + 21ace           
+VCRUNTIME140  0x00007ff9db420000 + 1b41            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3136</ThreadID>
+<ThreadName>TaskGraphThreadNP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ff9f0910000 + 9cdc4           
+KERNELBASE    0x00007ff9ee5c0000 + 21ace           
+VCRUNTIME140  0x00007ff9db420000 + 1b41            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4048</ThreadID>
+<ThreadName>TaskGraphThreadNP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll         0x00007ff9f0910000 + 9cdc4           
+KERNELBASE    0x00007ff9ee5c0000 + 21ace           
+VCRUNTIME140  0x00007ff9db420000 + 1b41            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2392</ThreadID>
+<ThreadName>TaskGraphThreadNP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 701f7240b856    
+X3DAudio1_7  0x0000000064210000 + 16b9e017ac0     
+X3DAudio1_7  0x0000000064210000 + 1cf520060       
+X3DAudio1_7  0x0000000064210000 + 7ff69bdf0005    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1792</ThreadID>
+<ThreadName>TaskGraphThreadNP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 701f7248bb06    
+X3DAudio1_7           0x0000000064210000 + 16bf6d6bae0     
+X3DAudio1_7           0x0000000064210000 + 1cf520080       
+EagleStreamingMechns  0x00007ff7a5760000 + 72f53e8         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20788</ThreadID>
+<ThreadName>TaskGraphThreadNP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 701f7230a646    
+X3DAudio1_7           0x0000000064210000 + 16be5f1f070     
+X3DAudio1_7           0x0000000064210000 + 1cd8b00e0       
+EagleStreamingMechns  0x00007ff7a5760000 + 72f53e8         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10924</ThreadID>
+<ThreadName>TaskGraphThreadNP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 701f7238ba86    
+X3DAudio1_7           0x0000000064210000 + 16be5e41610     
+X3DAudio1_7           0x0000000064210000 + 1cf5200a0       
+EagleStreamingMechns  0x00007ff7a5760000 + 72f53e8         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8420</ThreadID>
+<ThreadName>TaskGraphThreadNP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 701f7220bb66    
+X3DAudio1_7  0x0000000064210000 + 16be49c0010     
+X3DAudio1_7  0x0000000064210000 + 1cf520040       
+X3DAudio1_7  0x0000000064210000 + 7ff69bdf0006    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4772</ThreadID>
+<ThreadName>TaskGraphThreadNP 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 701f7228ba66    
+X3DAudio1_7           0x0000000064210000 + 16bf6d60d10     
+X3DAudio1_7           0x0000000064210000 + 1cf520040       
+EagleStreamingMechns  0x00007ff7a5760000 + 72f53e8         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6916</ThreadID>
+<ThreadName>TaskGraphThreadNP 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 15a8a0000       
+Unknown               0x0000000000000000 + 1               
+X3DAudio1_7           0x0000000064210000 + 86966f454       
+EagleStreamingMechns  0x00007ff7a5760000 + 4d56f8b         
+X3DAudio1_7           0x0000000064210000 + 16badef0658     
+X3DAudio1_7           0x0000000064210000 + 16b9e605530     
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10152</ThreadID>
+<ThreadName>TaskGraphThreadNP 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 15a8a0000       
+Unknown               0x0000000000000000 + 1               
+X3DAudio1_7           0x0000000064210000 + 8696efa44       
+EagleStreamingMechns  0x00007ff7a5760000 + 4d56f8b         
+X3DAudio1_7           0x0000000064210000 + 16badefde58     
+X3DAudio1_7           0x0000000064210000 + 16be5e431a0     
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21172</ThreadID>
+<ThreadName>TaskGraphThreadNP 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8108</ThreadID>
+<ThreadName>TaskGraphThreadHP 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c11c7bee0     
+Unknown      0x0000000000000000 + 4               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14128</ThreadID>
+<ThreadName>TaskGraphThreadHP 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14300</ThreadID>
+<ThreadName>TaskGraphThreadHP 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13872</ThreadID>
+<ThreadName>TaskGraphThreadHP 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c116937a0     
+Unknown      0x0000000000000000 + 4               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19328</ThreadID>
+<ThreadName>TaskGraphThreadHP 26</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 16c11c7e870     
+Unknown               0x0000000000000000 + 4               
+X3DAudio1_7           0x0000000064210000 + a09bdf0003      
+EagleStreamingMechns  0x00007ff7a5760000 + a4cf36          
+X3DAudio1_7           0x0000000064210000 + 16c100b02f8     
+X3DAudio1_7           0x0000000064210000 + 16c11c7e870     
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 79bdf0001       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4452</ThreadID>
+<ThreadName>TaskGraphThreadHP 27</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16b9bdf0001     
+X3DAudio1_7  0x0000000064210000 + 16c11c7cae0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14012</ThreadID>
+<ThreadName>TaskGraphThreadHP 28</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c538a0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9480</ThreadID>
+<ThreadName>TaskGraphThreadHP 29</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c55d30     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6828</ThreadID>
+<ThreadName>TaskGraphThreadHP 30</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c581c0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14972</ThreadID>
+<ThreadName>TaskGraphThreadHP 31</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c5a650     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6452</ThreadID>
+<ThreadName>TaskGraphThreadHP 32</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c5cae0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20696</ThreadID>
+<ThreadName>TaskGraphThreadHP 33</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c5ef70     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16248</ThreadID>
+<ThreadName>TaskGraphThreadHP 34</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c11410     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14960</ThreadID>
+<ThreadName>TaskGraphThreadHP 35</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c138a0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19652</ThreadID>
+<ThreadName>TaskGraphThreadHP 36</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c15d30     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20344</ThreadID>
+<ThreadName>TaskGraphThreadHP 37</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b90     
+X3DAudio1_7  0x0000000064210000 + 16ba5af6b01     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c181c0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6688</ThreadID>
+<ThreadName>TaskGraphThreadHP 38</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba49dd7b0     
+X3DAudio1_7  0x0000000064210000 + 16ba49dd701     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c1cae0     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7716</ThreadID>
+<ThreadName>TaskGraphThreadHP 39</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba49dd7b0     
+X3DAudio1_7  0x0000000064210000 + 16ba49dd701     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11c1ef70     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1176</ThreadID>
+<ThreadName>TaskGraphThreadHP 40</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba49dd7b0     
+X3DAudio1_7  0x0000000064210000 + 16ba49dd701     
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11bf1410     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6700</ThreadID>
+<ThreadName>TaskGraphThreadHP 41</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16ba49dd7b0     
+Unknown      0x0000000000000000 + bbea4           
+X3DAudio1_7  0x0000000064210000 + 159bdf0001      
+X3DAudio1_7  0x0000000064210000 + 16c11bf5d30     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14544</ThreadID>
+<ThreadName>TaskGraphThreadHP 42</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+Unknown               0x0000000000000000 + 18              
+EagleStreamingMechns  0x00007ff7a5760000 + 2200424         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15104</ThreadID>
+<ThreadName>TaskGraphThreadHP 43</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 7ff69bdf0010    
+X3DAudio1_7  0x0000000064210000 + 86a26f381       
+X3DAudio1_7  0x0000000064210000 + d984c0000       
+ntdll        0x00007ff9f0910000 + 60f6d0000       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8124</ThreadID>
+<ThreadName>TaskGraphThreadBP 44</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a2ef761       
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0000     
+X3DAudio1_7           0x0000000064210000 + 19bdf0005       
+X3DAudio1_7           0x0000000064210000 + 86a2ef7c4       
+X3DAudio1_7           0x0000000064210000 + 19bdefffe       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20732</ThreadID>
+<ThreadName>TaskGraphThreadBP 45</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a36f6a1       
+X3DAudio1_7           0x0000000064210000 + 16ba911b880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911b890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17240</ThreadID>
+<ThreadName>TaskGraphThreadBP 46</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a3ef8c1       
+X3DAudio1_7           0x0000000064210000 + 16ba911b880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911b890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8460</ThreadID>
+<ThreadName>TaskGraphThreadBP 47</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a46f2d1       
+X3DAudio1_7           0x0000000064210000 + 16ba911b880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911b890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12084</ThreadID>
+<ThreadName>TaskGraphThreadBP 48</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a4ef361       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7680     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7690     
+X3DAudio1_7           0x0000000064210000 + 39bdefff8       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2080</ThreadID>
+<ThreadName>TaskGraphThreadBP 49</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a56f7d1       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7680     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7690     
+X3DAudio1_7           0x0000000064210000 + 39bdefff8       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3448</ThreadID>
+<ThreadName>TaskGraphThreadBP 50</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a5ef421       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7680     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7690     
+X3DAudio1_7           0x0000000064210000 + 39bdefff8       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2120</ThreadID>
+<ThreadName>TaskGraphThreadBP 51</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a66f361       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7680     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7690     
+X3DAudio1_7           0x0000000064210000 + 39bdefff8       
+Unknown               0x0000000000000000 + 48              
+Unknown               0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6204</ThreadID>
+<ThreadName>TaskGraphThreadBP 52</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a6ef2a1       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7680     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16b9e0b7690     
+X3DAudio1_7           0x0000000064210000 + 39bdefff8       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12404</ThreadID>
+<ThreadName>TaskGraphThreadBP 53</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a76f5b1       
+X3DAudio1_7           0x0000000064210000 + 16ba9115080     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba9115090     
+X3DAudio1_7           0x0000000064210000 + 39bdefff8       
+Unknown               0x0000000000000000 + 48              
+Unknown               0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15484</ThreadID>
+<ThreadName>TaskGraphThreadBP 54</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a7ef2f1       
+X3DAudio1_7           0x0000000064210000 + 16ba9115080     
+X3DAudio1_7           0x0000000064210000 + 79bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba9115090     
+X3DAudio1_7           0x0000000064210000 + 39bdefff8       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17756</ThreadID>
+<ThreadName>TaskGraphThreadBP 55</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a86f9c1       
+X3DAudio1_7           0x0000000064210000 + 16ba911fc80     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911fc90     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12228</ThreadID>
+<ThreadName>TaskGraphThreadBP 56</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a8ef811       
+X3DAudio1_7           0x0000000064210000 + 16ba911fc80     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911fc90     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21220</ThreadID>
+<ThreadName>TaskGraphThreadBP 57</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a96f771       
+X3DAudio1_7           0x0000000064210000 + 16ba911fc80     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911fc90     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18344</ThreadID>
+<ThreadName>TaskGraphThreadBP 58</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86a9ef8f1       
+X3DAudio1_7           0x0000000064210000 + 16ba911f880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911f890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16104</ThreadID>
+<ThreadName>TaskGraphThreadBP 59</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86aa6f751       
+X3DAudio1_7           0x0000000064210000 + 16ba911f880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911f890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20972</ThreadID>
+<ThreadName>TaskGraphThreadBP 60</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86aaef7a1       
+X3DAudio1_7           0x0000000064210000 + 16ba911f880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911f890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15532</ThreadID>
+<ThreadName>TaskGraphThreadBP 61</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86ab6f731       
+X3DAudio1_7           0x0000000064210000 + 16ba911f880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911f890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15944</ThreadID>
+<ThreadName>TaskGraphThreadBP 62</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86abef5d1       
+X3DAudio1_7           0x0000000064210000 + 16ba911f880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911f890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18164</ThreadID>
+<ThreadName>TaskGraphThreadBP 63</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86ac6f911       
+X3DAudio1_7           0x0000000064210000 + 16ba911f880     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba911f890     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18512</ThreadID>
+<ThreadName>TaskGraphThreadBP 64</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 86acef801       
+X3DAudio1_7           0x0000000064210000 + 16ba9118680     
+X3DAudio1_7           0x0000000064210000 + 39bdf0000       
+X3DAudio1_7           0x0000000064210000 + 16ba9118690     
+X3DAudio1_7           0x0000000064210000 + 29bdefffc       
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 16b9bdf0001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21028</ThreadID>
+<ThreadName>TaskGraphThreadBP 65</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 16bc7a87220     
+EagleStreamingMechns  0x00007ff7a5760000 + 211acda         
+Unknown               0x0000000000000000 + c0              
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6472</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86ad8f720       
+X3DAudio1_7  0x0000000064210000 + 86ad8f880       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2608</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86adaf4b0       
+X3DAudio1_7  0x0000000064210000 + 86adaf610       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7392</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86adcf500       
+X3DAudio1_7  0x0000000064210000 + 86adcf660       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14032</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86adef940       
+X3DAudio1_7  0x0000000064210000 + 86adefaa0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>656</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86ae0f630       
+X3DAudio1_7  0x0000000064210000 + 86ae0f790       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15912</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86ae2f6a0       
+X3DAudio1_7  0x0000000064210000 + 86ae2f800       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15600</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86ae4f240       
+X3DAudio1_7  0x0000000064210000 + 86ae4f3a0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17640</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86ae6f430       
+X3DAudio1_7  0x0000000064210000 + 86ae6f590       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18076</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86ae8f3d0       
+X3DAudio1_7  0x0000000064210000 + 86ae8f530       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18204</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86aeaf890       
+X3DAudio1_7  0x0000000064210000 + 86aeaf9f0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16572</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86aecf420       
+X3DAudio1_7  0x0000000064210000 + 86aecf580       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11748</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86aeef640       
+X3DAudio1_7  0x0000000064210000 + 86aeef7a0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1628</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86af0f890       
+X3DAudio1_7  0x0000000064210000 + 86af0f9f0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1556</ThreadID>
+<ThreadName>PoolThread 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86af2f7c0       
+X3DAudio1_7  0x0000000064210000 + 86af2f920       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21444</ThreadID>
+<ThreadName>PoolThread 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86af4f420       
+X3DAudio1_7  0x0000000064210000 + 86af4f580       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2448</ThreadID>
+<ThreadName>PoolThread 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86af6f7b0       
+X3DAudio1_7  0x0000000064210000 + 86af6f910       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4352</ThreadID>
+<ThreadName>PoolThread 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16b9bdf0000     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16648</ThreadID>
+<ThreadName>PoolThread 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 16bafc60004     
+X3DAudio1_7           0x0000000064210000 + 16c0de86f10     
+Unknown               0x0000000000000000 + 1               
+X3DAudio1_7           0x0000000064210000 + 86afafb69       
+X3DAudio1_7           0x0000000064210000 + 16bafc650a0     
+EagleStreamingMechns  0x00007ff7a5760000 + 21ecfb8         
+Unknown               0x0000000000000000 + 48              
+Unknown               0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17936</ThreadID>
+<ThreadName>PoolThread 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 16c108ee878     
+EagleStreamingMechns  0x00007ff7a5760000 + 22049f5         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3768</ThreadID>
+<ThreadName>PoolThread 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7           0x0000000064210000 + 16bafc60004     
+X3DAudio1_7           0x0000000064210000 + 16c0de86f10     
+Unknown               0x0000000000000000 + 1               
+X3DAudio1_7           0x0000000064210000 + 86afef629       
+X3DAudio1_7           0x0000000064210000 + 16bafc64a40     
+EagleStreamingMechns  0x00007ff7a5760000 + 21ecfb8         
+Unknown               0x0000000000000000 + 48              
+Unknown               0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>880</ThreadID>
+<ThreadName>PoolThread 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c108ee938     
+X3DAudio1_7  0x0000000064210000 + 16b9bdf000d     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9596</ThreadID>
+<ThreadName>PoolThread 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c100b1738     
+X3DAudio1_7  0x0000000064210000 + 16b9bdf0005     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4748</ThreadID>
+<ThreadName>PoolThread 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86b04f9c0       
+X3DAudio1_7  0x0000000064210000 + 86b04fb20       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21428</ThreadID>
+<ThreadName>PoolThread 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c108effb8     
+Unknown      0x0000000000000000 + bd175           
+X3DAudio1_7  0x0000000064210000 + 16c10771f58     
+ntdll        0x00007ff9f0910000 + ffff80060f6e0000
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20836</ThreadID>
+<ThreadName>PoolThread 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9d3c4           
+KERNELBASE            0x00007ff9ee5c0000 + 496de           
+X3DAudio1_7           0x0000000064210000 + 86bbefd78       
+EagleStreamingMechns  0x00007ff7a5760000 + 2154c3e         
+X3DAudio1_7           0x0000000064210000 + 16c124f48d4     
+X3DAudio1_7           0x0000000064210000 + 16c10a17200     
+ntdll                 0x00007ff9f0910000 + ffff80060f6d7960
+Unknown               0x0000000000000000 + 15d94           
+Unknown               0x0000000000000000 + 48              
+X3DAudio1_7           0x0000000064210000 + 7ff69bdf0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19340</ThreadID>
+<ThreadName>FAsyncWriter_EagleStreamingMechns</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18420</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9d3c4           
+KERNELBASE   0x00007ff9ee5c0000 + 496de           
+X3DAudio1_7  0x0000000064210000 + 86de8fcf8       
+X3DAudio1_7  0x0000000064210000 + 16c1136ae80     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20140</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+Unknown               0x0000000000000000 + 20              
+EagleStreamingMechns  0x00007ff7a5760000 + 21c1675         
+ntdll                 0x00007ff9f0910000 + 2684060f70ca5f  
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7032</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 86decf780       
+X3DAudio1_7  0x0000000064210000 + 86decf8e0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20992</ThreadID>
+<ThreadName>PoolThread 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c100b1858     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14192</ThreadID>
+<ThreadName>PoolThread 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c100b17f8     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19320</ThreadID>
+<ThreadName>PoolThread 26</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c100b1798     
+Unknown      0x0000000000000000 + bd175           
+X3DAudio1_7  0x0000000064210000 + 16c10771f58     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3820</ThreadID>
+<ThreadName>PoolThread 27</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20744</ThreadID>
+<ThreadName>ODSCThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+Unknown               0x0000000000000000 + 10000           
+EagleStreamingMechns  0x00007ff7a5760000 + 14b8695         
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21020</ThreadID>
+<ThreadName>RenderThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9d3c4           
+KERNELBASE   0x00007ff9ee5c0000 + 496de           
+X3DAudio1_7  0x0000000064210000 + 8702bf7d8       
+ntdll        0x00007ff9f0910000 + ffff80060f6effff
+Unknown      0x0000000000000000 + 1d68            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16640</ThreadID>
+<ThreadName>RTHeartBeat 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 8730ef580       
+X3DAudio1_7  0x0000000064210000 + 8730ef6e0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1976</ThreadID>
+<ThreadName>PoolThread 28</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 8730ff530       
+X3DAudio1_7  0x0000000064210000 + 8730ff690       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20136</ThreadID>
+<ThreadName>PoolThread 29</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87310f500       
+X3DAudio1_7  0x0000000064210000 + 87310f660       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17360</ThreadID>
+<ThreadName>PoolThread 30</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87311f7f0       
+X3DAudio1_7  0x0000000064210000 + 87311f950       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1292</ThreadID>
+<ThreadName>PoolThread 31</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87312f9c0       
+X3DAudio1_7  0x0000000064210000 + 87312fb20       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9352</ThreadID>
+<ThreadName>PoolThread 32</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87313f590       
+X3DAudio1_7  0x0000000064210000 + 87313f6f0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9288</ThreadID>
+<ThreadName>PoolThread 33</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87314f8c0       
+X3DAudio1_7  0x0000000064210000 + 87314fa20       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15596</ThreadID>
+<ThreadName>PoolThread 34</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87315f450       
+X3DAudio1_7  0x0000000064210000 + 87315f5b0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20284</ThreadID>
+<ThreadName>PoolThread 35</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87316f690       
+X3DAudio1_7  0x0000000064210000 + 87316f7f0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19880</ThreadID>
+<ThreadName>PoolThread 36</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87317f550       
+X3DAudio1_7  0x0000000064210000 + 87317f6b0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20632</ThreadID>
+<ThreadName>PoolThread 37</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87318f960       
+X3DAudio1_7  0x0000000064210000 + 87318fac0       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12120</ThreadID>
+<ThreadName>PoolThread 38</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 87319f2e0       
+X3DAudio1_7  0x0000000064210000 + 87319f440       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20312</ThreadID>
+<ThreadName>PoolThread 39</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9cdc4           
+KERNELBASE   0x00007ff9ee5c0000 + 21ace           
+X3DAudio1_7  0x0000000064210000 + 16c0de9ab60     
+X3DAudio1_7  0x0000000064210000 + 79bdf0040       
+X3DAudio1_7  0x0000000064210000 + 16b9bdf0003     
+Unknown      0x0000000000000000 + 1               
+Unknown      0x0000000000000000 + 102             
+ntdll        0x00007ff9f0910000 + ffff80060f5fbdc0
+Unknown      0x0000000000000000 + 48              
+Unknown      0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6420</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x00007ff9f0910000 + 9d3c4           
+KERNELBASE   0x00007ff9ee5c0000 + 496de           
+X3DAudio1_7  0x0000000064210000 + 880c3f568       
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18628</ThreadID>
+<ThreadName>LiveLinkMessageBusDiscoveryManager</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8932</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9d3c4           
+KERNELBASE            0x00007ff9ee5c0000 + 496de           
+X3DAudio1_7           0x0000000064210000 + 880c6fd18       
+KERNELBASE            0x00007ff9ee5c0000 + 34fd9           
+Unknown               0x0000000000000000 + 1               
+EagleStreamingMechns  0x00007ff7a5760000 + 2209cec         
+ntdll                 0x00007ff9f0910000 + ffff80060ed66980
+EagleStreamingMechns  0x00007ff7a5760000 + a6bd078         
+Unknown               0x0000000000000000 + 48              
+Unknown               0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3220</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9f0910000 + 9cdc4           
+KERNELBASE  0x00007ff9ee5c0000 + 21ace           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13448</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 882eef4d1       
+EagleStreamingMechns  0x00007ff7a5760000 + 2105600         
+X3DAudio1_7           0x0000000064210000 + 882eef4f1       
+EagleStreamingMechns  0x00007ff7a5760000 + 896d698         
+X3DAudio1_7           0x0000000064210000 + 882eef4f1       
+Unknown               0x0000000000000000 + 48              
+Unknown               0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11696</ThreadID>
+<ThreadName>AudioThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                 0x00007ff9f0910000 + 9cdc4           
+KERNELBASE            0x00007ff9ee5c0000 + 21ace           
+EagleStreamingMechns  0x00007ff7a5760000 + abc0f18         
+Unknown               0x0000000000000000 + 398c            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14732</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 2080 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>512.59</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>30.0.15.1259</RHI.InternalDriverVersion>
+<RHI.DriverDate>4-20-2022</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<DeviceProfile.Name>WindowsNoEditor</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
